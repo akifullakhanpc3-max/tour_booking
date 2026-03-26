@@ -6,7 +6,7 @@ import dotenv from 'dotenv';
 dotenv.config();
 
 const port = process.env.PORT || 5000;
-const database = mongodb+srv://akifullakhan83_db_user:IL9NQGt3JMErLV3T@cluster0.uidw1qz.mongodb.net/admin;
+const database = "mongodb+srv://akifullakhan83_db_user:IL9NQGt3JMErLV3T@cluster0.uidw1qz.mongodb.net/admin";
 
 
 const app = express();
